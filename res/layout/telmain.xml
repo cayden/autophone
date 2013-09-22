@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    androidrientation="vertical" android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >  
+   
+    <Button android:id="@+id/button_tel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="监听"
+        />
+    
+      <Button android:id="@+id/button_start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="播放"
+        />
+      
+       <Button android:id="@+id/button_stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="停止"
+        />
+       
+       
+         <Button android:id="@+id/button_file"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/file_test"
+        />
+      
+       <Button android:id="@+id/button_db"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/db_test"
+        />
+</LinearLayout>  

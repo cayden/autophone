@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    androidrientation="vertical" android:layout_width="fill_parent"  
+    android:layout_height="fill_parent">  
+    <RadioGroup android:layout_height="wrap_content"  
+        android:layout_width="fill_parent" android:id="@+id/rGrpSelect">  
+        <RadioButton android:layout_height="wrap_content"  
+            android:layout_width="fill_parent" android:id="@+id/rbtnAutoAccept"  
+            android:text="所有来电自动接听"></RadioButton>  
+        <RadioButton android:layout_height="wrap_content"  
+            android:layout_width="fill_parent" android:id="@+id/rbtnAutoReject"  
+            android:text="所有来电自动挂断"></RadioButton>  
+    </RadioGroup>  
+    <ToggleButton android:layout_height="wrap_content"  
+        android:layout_width="fill_parent" android:id="@+id/tbtnRadioSwitch"  
+        android:textOn="Radio已经启动" android:textOff="Radio已经关闭"  
+        android:textSize="24dip" android:textStyle="normal"></ToggleButton>  
+    <ToggleButton android:layout_height="wrap_content"  
+        android:layout_width="fill_parent" android:id="@+id/tbtnDataConn"  
+        android:textSize="24dip" android:textStyle="normal" android:textOn="允许数据连接"  
+        android:textOff="禁止数据连接"></ToggleButton>  
+</LinearLayout>  
